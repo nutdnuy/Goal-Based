@@ -67,8 +67,8 @@ def calculate_volatility(volatility_forecast, correlations, W):
     return volatility
 
 
-cme = pd.DataFrame({'Volatility_Forecast': [0.2, 0.3, 0.4], 'Return_Forecast': [0.09, 0.02, 0.015]})
-correlations = np.array([[1, 0.5, 0.3], [0.5, 1, 0.4], [0.3, 0.4, 1]])  # Example correlations matrix
+cme = pd.DataFrame({'Volatility_Forecast': [0.3, 0.2, 0.001], 'Return_Forecast': [0.09, 0.02, 0.015]})
+correlations = np.array([[1, 0.2, 0.01], [0.2, 1, 0.01], [0.01, 0.01, 1]])  # Example correlations matrix
 
 # Calculate the updated volatility
 volatility_forecast = cme['Volatility_Forecast'].values
