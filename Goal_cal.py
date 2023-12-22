@@ -1,15 +1,12 @@
-import streamlit as st
-
-st.title('Goal Value Calculator for Retriment :sunglasses:')
-
-st.write("เครื่องมือนี้สร้างขึ้นมาเพื่อ คำนวณความน่าจะเป็นในการบรรลุเป้าหมายทางการเงิน ของการเกษียณอย่างง่าย ")
-
-
-import streamlit as st
 import numpy as np
+import scipy
 from scipy.stats import norm
 import pandas as pd
 import streamlit as st
+
+
+st.title('Goal Value Calculator for Retriment :sunglasses:')
+st.write("เครื่องมือนี้สร้างขึ้นมาเพื่อ คำนวณความน่าจะเป็นในการบรรลุเป้าหมายทางการเงิน ของการเกษียณอย่างง่าย ")
 
 # Title for the app
 st.title("Goal Value Calculator")
