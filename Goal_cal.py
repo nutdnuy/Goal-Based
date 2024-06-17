@@ -1,4 +1,5 @@
 import numpy as np
+pip install scipy
 from scipy.stats import norm
 import pandas as pd
 import streamlit as st
